@@ -1,0 +1,434 @@
+/*header content blog details*/
+
+.article-template .icon-header {
+  color: orange;
+  margin-right: 15px;
+}
+
+h1.article-template__title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 66px;
+  color: #000;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.article-template .article-template-item {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 0;
+}
+
+.article-template-item__date {
+  padding-right: 40px;
+}
+
+/*socical sharing blog details*/
+
+.article-template__social-sharing {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 19px 0 42px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.span-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+}
+
+.tag-font {
+  font-size: 18px;
+  line-height: 28px;
+  color: #8d8d8d;
+}
+
+.article-template .list-social-item {
+  color: #000000;
+  opacity: 0.6;
+  padding: 0 0 0 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*author-info*/
+
+.section-author {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+
+.section-author .img-author {
+  flex: 1;
+  overflow: hidden;
+}
+
+.section-author .info-author {
+  flex: 5;
+  padding-left: 20px;
+}
+
+.section-author .name-author {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+  line-height: 28px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.section-author .bio__author {
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.img-author img {
+  max-width: 150px;
+  width: 100%;
+}
+
+/*previous next blog post*/
+
+.article-template .articleBoxExtend-container {
+  background: #f7f7f7;
+}
+
+.article-template .articleBoxExtend {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.article-template .articleExtendLeft {
+  padding-left: 15px;
+}
+
+.article-template .articleExtendRight,
+.article-template .articleExtendLeft {
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: none;
+  padding: 35px 0;
+}
+
+.article-template .articleExtendLeft{
+  margin-right: 10px;
+}
+
+.article-template .articleExtendRight{
+  margin-left: 10px;
+}
+
+.article-template .articleExtendImage a {
+  display: inline-block;
+  width: 126px;
+  position: relative;
+  color: #fff;
+}
+
+.article-template .articleExtendImage a svg {
+  position: absolute;
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+
+  transform: translate(-50%, -50%);
+  /* This is a shorthand of
+                                            translateX(-50%) and translateY(-50%) */
+  opacity: 0;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.article-template .articleExtendImage a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.article-template .articleExtendImage:hover a:after {
+  opacity: 1;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.article-template .articleExtendImage:hover a svg {
+  opacity: 1;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  z-index: 9;
+}
+
+.article-template .articleExtendImage img {
+  max-width: 126px;
+  width: 100%;
+  height: 126px;
+  display: block;
+  object-fit: cover;
+}
+
+.article-template .articleExtendImage {
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+}
+
+.articleextendnavtext-container {
+}
+
+.icon-img {
+  width: 126px;
+  height: 126px;
+  position: absolute;
+  padding: 45px;
+  color: #ffffff;
+  display: block;
+  opacity: 0;
+  font-weight: 500;
+}
+
+.icon-img {
+  display: block;
+  opacity: 1;
+}
+
+.articleExtendNavText a {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.articleExtendTitle a {
+  color: #000000;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.articleExtendNavText-container {
+  flex: 3;
+  line-height: 1.6;
+}
+
+.articleExtendRight .articleExtendNavText-container {
+  text-align: right;
+  padding-left: 70px;
+}
+
+.articleExtendLeft .articleExtendNavText-container {
+  padding-right: 70px;
+}
+
+/*comment*/
+.article-template__comment-wrapper {
+  max-width: 1410px;
+  margin: 68px auto auto;
+}
+
+.article-user-info-comment {
+  margin-bottom: 7px;
+}
+
+.article-user-info-comment time {
+  font-size: 20px;
+  line-height: 1.4em;
+  color: #282828;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.article-template__comments-comment {
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 50px;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.article-comment__right {
+  padding-left: 30px;
+}
+
+.article-template .comment-style {
+  font-weight: 400;
+  font-size: 28px;
+  padding: 90px 0 70px;
+  line-height: 44px;
+  margin: 0;
+}
+
+.page-width-comment {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.author-comment {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+}
+
+.article-user-content-comment p {
+  line-height: 1.4em;
+  color: #282828;
+}
+
+.field__input {
+  border: 1px solid #cccccc;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.btn-comment-blog-detail {
+  background: #000000;
+  color: #ffffff;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 14px 50px;
+  height: auto;
+  min-height: unset;
+  letter-spacing: -1px;
+  min-width: unset;
+  margin-bottom: 98px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 979px) {
+  .article-template .articleExtendRight,
+  .article-template .articleExtendLeft {
+    padding: 35px 10px;
+  }
+
+  .articleExtendRight .articleExtendNavText-container {
+    padding-left: unset;
+  }
+
+  .articleExtendTitle {
+    display: none;
+  }
+
+  h1.article-template__title {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .articleExtend .articleExtendNavText a {
+    font-size: 16px;
+  }
+
+  .article-template-item {
+    font-size: 14px;
+  }
+
+  .main-article-section .article-template__content {
+    margin: 40px auto 0;
+    font-size: 16px;
+  }
+
+  .article-template__social-sharing {
+    display: block;
+  }
+
+  .socials {
+    margin-bottom: 20px;
+  }
+
+  .socials .span-social {
+    font-size: 16px;
+  }
+
+  .tags .span-social {
+    font-size: 16px;
+  }
+
+  .articleExtendImage {
+    display: none;
+  }
+
+  .section-author {
+    padding-bottom: 60px;
+  }
+
+  .section-author .name-author {
+    margin-bottom: 20px;
+  }
+
+  .section-author .img-author {
+    flex: none;
+  }
+
+  .img-author {
+    display: none;
+  }
+
+  .section-author .bio__author {
+    line-height: 1.4;
+    font-size: 16px;
+  }
+
+  .section-author .info-author {
+    padding: 0;
+  }
+
+  .article-template .articleExtendRight,
+  .article-template .articleExtendLeft {
+    max-width: 100%;
+  }
+
+  .article-template .articleBoxExtend {
+    padding: 50px 0;
+  }
+
+  .article-template .comment-style {
+    padding: 0px 0 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .article-template-content h1.article-template__title {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}

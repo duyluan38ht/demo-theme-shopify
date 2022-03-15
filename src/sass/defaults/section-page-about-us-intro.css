@@ -1,0 +1,26 @@
+.column-intro-about-us {
+  padding: 97px 100px 80px;
+}
+.column-intro.col-4 {
+  padding: 0 22px;
+}
+.column-intro-about-us .column-intro:first-child {
+}
+
+.column-intro-about-us h3.title-column-intro {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: inherit;
+}
+.column-intro p.text-column-intro {
+  font-size: 16px;
+  font-weight: 400;
+  color: #696969;
+  line-height: 1.625;
+  max-width: 355px;
+}
+@media screen and (max-width: 979px) {
+  .column-intro-about-us {
+    padding: 23px 30px 50px;
+  }
+}

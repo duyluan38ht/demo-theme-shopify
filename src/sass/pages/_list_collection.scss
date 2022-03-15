@@ -1,0 +1,90 @@
+.collection-list__wrapper {
+  margin-bottom: 100px;
+  margin: 0 -15px;
+  .collection-list__item {
+    max-width: 25% !important;
+    padding: 0 15px;
+    margin-bottom: 50px;
+    .img__wrapper {
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      img {
+        max-width: 100%;
+        object-fit: contain;
+        width: auto;
+        height: auto;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+      }
+      &:hover {
+        img {
+          transform: scale(1.08) translateZ(0);
+          transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+        }
+      }
+    }
+    .collections-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+
+      .collections-content-title {
+        margin: 0;
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+        position: relative;
+        &:before {
+          position: absolute;
+          content: "";
+          width: 0;
+          height: 2px;
+          transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          background: #000;
+          bottom: -3px;
+          left: 0;
+          display: block;
+        }
+        &:hover {
+          color: #c69251;
+          &:before {
+            width: 100%;
+            transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            background: #c69251;
+          }
+        }
+      }
+
+      .collections-content-number {
+
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.4;
+        position: relative;
+        color: #b7b7b7;
+        &:hover {
+          color: #c69251;
+          transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}

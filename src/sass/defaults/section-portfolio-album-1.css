@@ -1,0 +1,275 @@
+.main-portfolio {
+  position: relative;
+  padding-bottom: 138px;
+}
+.main-content {
+  margin-top: 0;
+  margin-left: 31%;
+  max-width: 143px;
+}
+
+.content-portfolio-album-1 .number-portfolio {
+  font-size: 100px;
+
+  letter-spacing: inherit;
+  opacity: 0.5;
+  margin: 0;
+  line-height: 95px;
+}
+
+.content-portfolio-album-1 .title-portfolio {
+  font-size: 50px;
+  line-height: 1.2em;
+
+  letter-spacing: inherit;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.rotate {
+  transform: translate(-214px, 328px) rotate(90deg);
+}
+
+.content-portfolio-album-1 p.content-portfolio {
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 2px solid;
+  line-height: 1.6em;
+  padding-bottom: 63px;
+}
+
+.content-portfolio-album-1 .content-portfolio-description {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.content-portfolio-album-1 .inline {
+  display: inline-block;
+  width: 139px;
+  height: 1px;
+  background-color: #000000;
+  margin-right: 27px;
+}
+
+.big-title-portfolio {
+  position: absolute;
+  bottom: 67px;
+  text-align: start;
+  left: -318px;
+}
+
+@media (max-width: 1700px) {
+  .big-title-portfolio {
+    left: 0;
+  }
+}
+
+.title-portfolio-album-1 {
+  font-size: 150px;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.2;
+}
+
+.portfolio-image .swiper {
+  max-width: 470px;
+  margin-left: unset;
+}
+.portfolio-image .portfolio-image-item {
+  max-width: 470px;
+}
+.portfolio-image .portfolio-image-item img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.portfolio-img-default {
+  width: 470px;
+  height: 625px;
+  background: #cccccc;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.portfolio-image .swiper {
+  max-width: 470px;
+}
+
+.portfolio-image {
+  position: relative;
+  -webkit-transition: all 0.3s 0s linear;
+  -moz-transition: all 0.3s 0s linear;
+  -o-transition: all 0.3s 0s linear;
+  transition: all 0.3s 0s linear;
+}
+
+.portfolio-image:before {
+  width: 100%;
+  height: 100%;
+  max-width: 470px;
+  position: absolute;
+  display: block;
+  content: "";
+  background: transparent;
+  border: 1px solid;
+  bottom: 42px;
+  left: 53px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s 0s linear;
+  -moz-transition: all 0.3s 0s linear;
+  -o-transition: all 0.3s 0s linear;
+  transition: all 0.3s 0s linear;
+}
+.portfolio-image .swiper-button-prev {
+  width: 80px;
+  left: -124px;
+  -webkit-transition: all 0.3s 0s linear;
+  -moz-transition: all 0.3s 0s linear;
+  -o-transition: all 0.3s 0s linear;
+  transition: all 0.3s 0s linear;
+  visibility: hidden;
+}
+.portfolio-image > div.swiper-button-prev {
+  opacity: 0;
+  -webkit-transition: all 0.3s 0s linear;
+  -moz-transition: all 0.3s 0s linear;
+  -o-transition: all 0.3s 0s linear;
+  transition: all 0.3s 0s linear;
+  visibility: hidden;
+}
+
+.portfolio-image .swiper-button-next {
+  width: 55px;
+  right: 110px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s 0s linear;
+  -moz-transition: all 0.3s 0s linear;
+  -o-transition: all 0.3s 0s linear;
+  transition: all 0.3s 0s linear;
+  visibility: hidden;
+}
+
+.portfolio-image:hover::before,
+.portfolio-image:hover div.swiper-button-prev,
+.portfolio-image:hover .swiper-button-next {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.3s 0s linear;
+  -moz-transition: all 0.3s 0s linear;
+  -o-transition: all 0.3s 0s linear;
+  transition: all 0.3s 0s linear;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "" !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: block !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-portfolio .big-title-portfolio {
+    display: none;
+  }
+  .portfolio-image:before {
+    display: none;
+  }
+  .main-content {
+    margin-left: none;
+  }
+
+  .main-portfolio .rotate {
+    transform: translate(-161px, 255px) rotate(90deg);
+  }
+
+  .main-portfolio .swiper-button-next {
+    top: 115%;
+    opacity: 1 !important;
+    width: 100px;
+    right: 162px;
+    visibility: visible;
+  }
+  .main-portfolio .swiper-button-prev {
+    top: 115%;
+    opacity: 1 !important;
+    width: 100px;
+    left: 126px;
+    visibility: visible;
+  }
+
+  .main-portfolio .swiper-button-next img,
+  .main-portfolio .swiper-button-prev img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content-portfolio-album-1 .content-portfolio-description {
+    display: none;
+  }
+  .main-content {
+    margin-top: 0;
+    margin-left: auto;
+    max-width: none;
+    text-align: center;
+  }
+  .content-portfolio-album-1 p.content-portfolio {
+    border-bottom: none;
+  }
+  .portfolio-image .swiper {
+    margin-left: auto;
+    /* max-width: none; */
+  }
+}
+/* @media screen and (max-width: 992px) {
+    .main-portfolio .portfolio-image .swiper {
+        max-width: 100%;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+  .content-portfolio-album-1 .content-portfolio-description {
+    display: none;
+  }
+  .main-content {
+    max-width: unset;
+    margin-left: unset;
+  }
+  .content-portfolio-album-1 p.content-portfolio {
+    border-bottom: none;
+  }
+
+  .main-portfolio .swiper-button-next {
+    right: 155px;
+  }
+  .main-portfolio .swiper-button-prev {
+    left: 155px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-portfolio .swiper-button-next {
+    right: 60px;
+  }
+  .main-portfolio .swiper-button-prev {
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-portfolio .swiper-button-next {
+    right: 30px;
+  }
+  .main-portfolio .swiper-button-prev {
+    left: 30px;
+  }
+}

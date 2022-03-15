@@ -1,0 +1,95 @@
+.our-mission {
+  margin-bottom: 100px;
+}
+.our-mission .image-our-mission img {
+  width: 100%;
+}
+.our-mission .us-about-img-default {
+  background: #cccccc;
+  width: 700px;
+  height: 390px;
+}
+@media (max-width: 1300px) {
+  .our-mission .us-about-img-default {
+    width: 640px;
+  }
+}
+
+.our-mission aside.image-our-mission {
+  padding: 0 21px 82px 97px;
+}
+
+.our-mission p.our-mission-name {
+  text-transform: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c7c7c;
+  margin-bottom: 17px;
+}
+
+.content-our-mission {
+  padding: 72px 40px;
+}
+
+.underline {
+  width: 64px;
+  height: 4px;
+  background: #ffae47;
+}
+
+h3.title-our-mission {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: inherit;
+  margin-bottom: 17px;
+}
+
+p.text-our-mission {
+  font-size: 16px;
+  font-weight: 400;
+  color: #696969;
+  line-height: 1.625;
+  padding-bottom: 18px;
+}
+
+.description-about {
+  max-width: 742px;
+  margin: auto;
+  text-align: center;
+}
+
+p.description-our-mission {
+  font-size: 30px;
+  font-weight: 400;
+  color: #888888;
+  line-height: 1.4em;
+  margin-bottom: 16px;
+}
+p.author-description {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (max-width: 979px) {
+  .our-mission aside.image-our-mission {
+    padding: 0 16px;
+  }
+
+  .content-our-mission {
+    padding: 40px 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our-mission {
+    margin-bottom: 50px;
+  }
+  p.description-our-mission {
+    font-size: 26px;
+  }
+  p.author-description {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,375 @@
+//=========== Home collection Fashion ============
+.home-collection  {
+    .theme-fashion {
+      .wp-home-fashion-featured-collection { 
+        .swiper {
+          .swiper-wrapper {
+            // justify-content: center;
+            .swiper-slide {
+              .card-wrapper {
+                padding: 0;
+                .card.card--product {
+                  .card__inner {
+                    .button-fashion.button-quickview {
+                      .quick_view_btn {
+                        font-weight: 400;
+                        font-size: 18px;
+                      }
+                    }
+                  }
+                }
+                .card-information {
+                  .card-information__wrapper {
+                    .card-information__titleblock {
+                      margin-bottom: 7px;
+                      .card-information__text {
+                        a {
+                          font-size: 16px;
+                          font-weight: 500;
+                        }
+                      }
+                    }
+                    .card-information__pcard-options-color {
+                      justify-content: center;
+                      margin-bottom: 19px;
+                    }
+                    .price  {
+                      font-size: 16px;
+                      .price__regular, .price__sale {
+                        font-size: 16px;
+                      }
+                    }
+                  }
+                }
+
+              }
+            }
+          }
+          .swiper-action {
+            margin-top: 73px;
+          }
+        }
+      }
+    }
+}
+
+//================ Home collection Comestic ==========
+.home-collection {
+  .theme-cosmetic {
+    .wp-home-cosmetic-featured-collection { 
+      overflow: hidden;
+      .collectionSwiper {
+        .wrapper {
+          @media (max-width: 1200px) {
+            padding: 0 15px;
+            margin-right: 0;
+            margin-left: 0;
+          }
+
+          .item {
+            flex-basis: 20%;
+            margin-bottom: 45px;
+
+            // flex-basis: 25%;
+            // margin-bottom: 45px;
+            @media (max-width: 1200px) {
+              flex-basis: 33.33%; 
+            }
+            @media (max-width: 992px) {
+              flex-basis: 50%; 
+            }
+            @media (max-width: 460px) {
+              flex-basis: 100%; 
+            }
+            .card-wrapper {
+              .card.card--product {
+                .card__inner {
+                  position: relative;
+                }
+              }
+              .card-information {
+                .card-information__wrapper {
+                  @media (max-width: 1200px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                  }
+                  .card-information__titleblock {
+                    text-align: left;
+                    .card-information__text {
+                      a {
+                        font-size: 16px;
+                      }
+                    }
+                  }
+                  .price  {
+                    justify-content: left;
+                    .price__regular {
+                      font-size: 16px;
+                    }
+                    .price__sale {
+                      justify-content: left;
+                      font-size: 16px;
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+    .load-more_wrap {
+      .loading-effect {
+        // opacity: 0.2;
+      }
+      .btn.js-load-more {
+        position: relative;
+        border-radius: unset;
+        text-transform: unset;
+        border: 2px solid #000;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 57px;
+
+        .load-more-text {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: unset;
+          text-transform: unset;
+        }
+
+        .icon.loading {
+          // right: 20px;
+          position: absolute;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+//================ Home collection Clothes ==========
+.home-collection {
+  .theme-clothes {
+    @media (max-width: 1200px) {
+      padding: 0 30px;
+    }
+    @media (max-width: 768px) {
+      padding: 0 15px;
+    }
+    .wp-home-clothes-featured-collection { 
+      overflow: hidden;
+
+      .tab__header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 69px;
+
+        .header__left {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+
+          @media (max-width: 768px) {
+            flex-direction: column;
+          }
+          h3 {
+            margin-bottom: 0;
+            font-size: 36px;
+            font-weight: 500;
+            letter-spacing: 0;
+
+            @media (max-width: 768px) {
+              margin-bottom: 16px;
+            }
+          }
+          .box-button {
+            display: flex;
+            @media (max-width: 768px) {
+              margin-left: 0;
+              padding-left: 0;
+              margin-right: 35px;
+              flex-wrap: wrap;
+            }
+            .collection_tablinks {
+              font-size: 18px;
+              color: #a3a3a3;
+              margin-left: 32px;
+
+              &:last-child {
+                margin-right: 0;
+              }
+              @media (max-width: 768px) {
+                margin-left: 0;
+                padding-left: 0;
+                margin-right: 35px;
+                margin-bottom: 6px;
+                &:last-child {
+                  margin-bottom: 0;
+                }
+              }
+              svg {
+                transform: rotate(-90deg);
+                width: 12px;
+                margin-left: 10px;
+              }
+            }
+            .collection_tablinks.active {
+              color: #000;
+            }
+          }
+        }
+      }
+
+      .collectionSwiper {
+        margin-bottom: 27px;
+        .wrapper {
+          // @media (max-width: 1200px) {
+          //   padding: 0 15px;
+          //   margin-right: 0;
+          //   margin-left: 0;
+          // }
+          .item, .grid__item ,.swiper-slide {
+            flex-basis: 25%;
+            margin-bottom: 45px;
+            @media (max-width: 1200px) {
+              flex-basis: 33.33%; 
+            }
+            @media (max-width: 992px) {
+              flex-basis: 50%; 
+            }
+            @media (max-width: 460px) {
+              flex-basis: 100%; 
+            }
+            .card-wrapper {
+              .card.card--product {
+                .card__inner {
+                  .card__action.product-card__action {
+                    top: 0;
+                    display: flex;
+                    flex-direction: column;
+                    right: 16px;
+                    transform: unset;
+                    align-items: end;
+          
+                    li {
+                      margin-bottom: 10px;
+                      overflow: inherit;
+                      background-color: #ffffff;
+                      .wp-tooltip-custom {
+                        font-size: 16px;
+                        padding: 3px 10px;
+                      }
+                    }
+                  }
+                }
+                .card-information__cart {
+                  form {
+                    text-align: center;
+                    .btn {
+                      font-weight: 500;
+                      letter-spacing: 0;
+                    }
+                  }
+                }
+              }
+
+              .card-information {
+                .card-information__wrapper {
+                  .price-stars-review {
+                    .stars, .stars-new {
+                      font-size: 24px;
+                    }
+                  }
+                  .card-information__titleblock {
+                    text-align: left;
+                    .card-information__text {
+                      a {
+                        font-size: 16px;
+                      }
+                    }
+                  }
+                  .price  {
+                    justify-content: left;
+                    .price__regular {
+                      font-size: 16px;
+                    }
+                    .price__sale {
+                      justify-content: left;
+                      font-size: 16px;
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+        }
+      }
+
+      .redirect-collection {
+        text-align: center;
+        .btn {
+          border-radius: unset;
+          text-transform: unset;
+          border: 2px solid #000;
+          padding: 15px 45px;
+          display: inline-block;
+          transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          
+          &:hover {
+            color: #fff;
+            h3 {
+              color: #fff;
+            }
+          }
+          h3 {
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 500;
+
+            transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+          }
+        }
+      }
+
+      .load-more_wrap {
+        .loading-effect {
+          // opacity: 0.2;
+        }
+        .btn.js-load-more {
+          position: relative;
+          border-radius: unset;
+          text-transform: unset;
+          border: 2px solid #000;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 15px 45px;
+  
+          .load-more-text {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: unset;
+            text-transform: unset;
+          }
+  
+          .icon.loading {
+            // right: 20px;
+            position: absolute;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

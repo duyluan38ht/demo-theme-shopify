@@ -1,0 +1,392 @@
+.section-banner-medical {
+  //-----banner certificate------//
+  .banner-medical {
+    max-width: 1820px;
+    margin: auto;
+    .banner-certificate {
+      .banner-certificate__top {
+        position: relative;
+        .bn-top__background {
+          max-width: 1820px;
+          // img {
+          //   width: 100%;
+          //   object-fit: cover;
+          //   height: 100%;
+          // }
+        }
+        .bn-top__img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          max-width: 1255px;
+          margin: auto;
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      .banner-certificate__bottom {
+        display: flex;
+        justify-content: center;
+        max-width: 1410px;
+        margin: auto;
+        overflow: hidden;
+        transform: translatey(-75px);
+        // @media (max-width: 1430px) {
+        //   width: 95%;
+        // }
+        @media (min-width: 576px) {
+          max-width: 540px;
+        }
+
+        @media (min-width: 768px) {
+          max-width: 720px;
+        }
+
+        @media (min-width: 992px) {
+          max-width: 960px;
+        }
+
+        @media (min-width: 1200px) {
+          max-width: 1140px;
+        }
+
+        @media (min-width: 1400px) {
+          max-width: 1320px;
+        }
+        @media (min-width: 1680px) {
+          max-width: 1410px;
+        }
+
+        @media (max-width: 767px) {
+          flex-direction: column;
+          margin-top: 4px;
+        }
+        .bn-bottom-left {
+          background: #ffe400;
+          max-width: 450px;
+          text-align: left;
+          padding: 96px 36px;
+          @media (max-width: 1430px) {
+            padding: 60px 15px;
+          }
+          @media (min-width: 768px) and (max-width: 1023px) {
+            width: 50%;
+          }
+          @media (max-width: 767px) {
+            max-width: unset;
+          }
+          .left-contnet {
+            max-width: 377px;
+            @media (max-width: 767px) {
+              max-width: unset;
+            }
+            .bn-bottom-left__title {
+              font-size: 40px;
+              line-height: 1.2;
+              font-weight: 500;
+              margin-bottom: 25px;
+              max-width: 350px;
+              letter-spacing: 0;
+            }
+            .bn-bottom-left__desc {
+              font-size: 16px;
+              font-weight: 400;
+              margin-bottom: 43px;
+              line-height: 1.5;
+            }
+            .view-all-btn {
+              font-size: 18px;
+              font-weight: 500;
+              padding: 17px 56px;
+              background-color: #ffffff;
+              border-radius: 50px;
+              overflow: hidden;
+              @media (max-width: 1160px) {
+                font-size: 18px;
+              }
+              @media (max-width: 1030px) {
+                padding: 15px 25px;
+              }
+            }
+          }
+        }
+        .bn-bottom-right {
+          position: relative;
+          max-width: 960px;
+          @media (min-width: 768px) and (max-width: 1023px) {
+            width: 50%;
+          }
+          .bn-bottom-right__box {
+            position: absolute;
+            left: 0;
+            top: 42%;
+            transform: translateY(-50%);
+            z-index: 2;
+            background: #ffffff;
+            padding: 20px 60px 20px 30px;
+            @media (max-width: 1023px) {
+              z-index: 3;
+            }
+            .box-sale-off {
+              position: relative;
+              margin: 0;
+              .sale-off {
+                font-size: 80px;
+                text-transform: uppercase;
+                line-height: 1;
+                margin: 0;
+                max-width: 170px;
+                font-weight: 600;
+              }
+              .box-sale-off_desc {
+                font-size: 30px;
+                text-transform: uppercase;
+                color: #3ea6ff;
+                transform: rotate(90deg) translateX(71px) translateY(-96px);
+                height: 25px;
+                font-weight: 500;
+                position: absolute;
+                right: -19px;
+                top: 0;
+                z-index: -1;
+              }
+            }
+          }
+          .bn-bottom-right__background {
+            max-width: 960px;
+            height: 100%;
+            img {
+              width: 100%;
+              object-fit: cover;
+              height: 100%;
+              @media (max-width: 767px) {
+                width: unset;
+              }
+            }
+            .btr-bg-default {
+              width: 960px;
+              background: #dddddd;
+              @media (max-width: 1600px) {
+                width: 840px;
+              }
+            }
+          }
+          .bn-bottom-right__img {
+            position: absolute;
+            right: 60px;
+            bottom: 0;
+            z-index: 2;
+            max-width: 450px;
+            @media (max-width: 1023px) {
+              right: 0;
+            }
+            img {
+              width: 100%;
+              object-fit: cover;
+            }
+          }
+          .bn-bottom-right__shop-now {
+            position: absolute;
+            left: 160px;
+            bottom: 107px;
+            z-index: 2;
+            background-color: #000000;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffffff;
+            width: 200px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            -webkit-transition: all 0.5s 0s ease;
+            -moz-transition: all 0.5s 0s ease;
+            -o-transition: all 0.5s 0s ease;
+            transition: all 0.5s 0s ease;
+            @media (max-width: 1023px) {
+              bottom: 50px;
+              left: 60px;
+            }
+            @media (max-width: 1320px) {
+              color: #000000;
+              background-color: #ffe400;
+              .icon {
+                svg {
+                  path {
+                    fill: #000000;
+                    stroke: #000000;
+                  }
+                }
+              }
+            }
+            &:hover {
+              color: #000000;
+              background-color: #ffe400;
+
+              .icon {
+                svg {
+                  path {
+                    fill: #000000;
+                    stroke: #000000;
+                  }
+                }
+              }
+            }
+            .icon {
+              margin-left: 25px;
+              line-height: 0;
+              margin-right: -5px;
+
+              svg {
+                width: 15px;
+                margin-left: -12px;
+                path {
+                  fill: #ffffff;
+                  stroke: #ffffff;
+                  -webkit-transition: all 0.5s 0s ease;
+                  -moz-transition: all 0.5s 0s ease;
+                  -o-transition: all 0.5s 0s ease;
+                  transition: all 0.5s 0s ease;
+                  @media (max-width: 1320px) {
+                    fill: #000000;
+                    stroke: #000000;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //----end banner certificate----//
+
+  //-----banner sale of------//
+  .banner-sale-off {
+    max-width: 1820px;
+    margin: auto;
+    position: relative;
+    .banner-sale-off__bg {
+      max-width: 1820px;
+      img {
+        width: 100%;
+        object-fit: cover;
+        @media (max-width: 767px) {
+          height: 1110px;
+        }
+      }
+    }
+    .banner-sale-off__main {
+      display: flex;
+      align-items: stretch;
+      max-width: 1610px;
+      margin-left: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      @media (max-width: 1620px) {
+        margin-left: 30px;
+      }
+      @media (max-width: 767px) {
+        flex-direction: column;
+        margin: auto;
+      }
+      .banner-sale-off__content {
+        background: #ffffff;
+        max-width: 450px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 48px;
+        @media (max-width: 1480px) {
+          width: 40%;
+          padding: 0 30px;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          width: 50%;
+        }
+        @media (max-width: 767px) {
+          max-width: unset;
+          width: 90%;
+          margin: auto;
+          padding: 50px 30px;
+        }
+        .banner-sale-off__title {
+          font-size: 36px;
+          font-weight: 300;
+          margin-bottom: 35px;
+          letter-spacing: 0;
+        }
+        .banner-sale-off__number {
+          margin-bottom: 20px;
+          position: relative;
+          .bn-number {
+            font-size: 100px;
+            font-weight: 700;
+          }
+          .bn-off {
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            transform: rotate(90deg) translateY(-55px);
+            margin: 0;
+            line-height: 0;
+            position: absolute;
+            right: 0;
+            top: 7px;
+          }
+        }
+        .banner-sale-off__subheding {
+          font-size: 22px;
+          font-weight: 400;
+          margin-bottom: 18px;
+        }
+        .banner-sale-off__desc {
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: 33px;
+        }
+        .bn-sale-off__shop-now {
+          font-size: 18px;
+          font-weight: 500;
+          background: #3ea6ff;
+          color: #ffffff;
+          border-radius: 50px;
+          padding: 17px 52px;
+          overflow: hidden;
+          @media (max-width: 767px) {
+            // margin-bottom: 90px;
+          }
+        }
+      }
+      .banner-sale-off__img {
+        margin-top: auto;
+        @media (max-width: 1480px) {
+          width: 60%;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          width: 50%;
+        }
+        @media (max-width: 767px) {
+          width: 100%;
+          img {
+            object-fit: cover;
+          }
+        }
+        .banner-sale-off-default__img {
+          width: 300px;
+          background: #f8f8f8;
+        }
+      }
+    }
+  }
+}

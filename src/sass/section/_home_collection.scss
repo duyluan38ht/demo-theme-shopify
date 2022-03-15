@@ -1,0 +1,377 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+.home-collection {
+  .collection {
+    .title-wrapper-with-link {
+      .home-title {
+        line-height: 1;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  a.button {
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #000;
+    font-weight: 500;
+    text-transform: none;
+    background: #fff;
+    padding: 15px 35px;
+    border-radius: 30px;
+    min-height: unset;
+    min-width: unset;
+    overflow: hidden;
+    letter-spacing: 0;
+    border: 1px solid #000;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .collectionSwiper.style-fashion {
+    margin-bottom: 0;
+    .swiper-action {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .swiper-navigation-item {
+      position: relative;
+      top: auto;
+      transform: unset;
+      width: auto;
+      height: auto;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+      border-radius: 0;
+      overflow: hidden;
+      z-index: 9;
+      outline: none;
+    }
+    .swiper-pagination-bullets {
+      display: flex;
+      align-items: center;
+      margin: 0 20px;
+      .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 1);
+        border: 2px solid #000;
+      }
+      .swiper-pagination-bullet {
+        color: rgba(0, 0, 0, 0.3);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-decoration: none;
+        font-weight: 500;
+
+        line-height: 1.4em;
+        padding: 0;
+        width: 60px;
+        height: 60px;
+        margin: 0 5px;
+        transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+      }
+    }
+    .swiper-slide .card-wrapper .card__inner .card__badge {
+      right: 20px;
+      left: auto;
+      top: 20px;
+    }
+    .swiper-slide .card-wrapper .card__inner .card__badge span {
+      font-size: 16px;
+      letter-spacing: 0;
+      font-weight: 300;
+      line-height: 1.4em;
+      color: #fff;
+      background: #4fbd1f;
+      padding: 0;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+    }
+    .card--product {
+      .product-card__action {
+        li {
+          display: none;
+          &:first-child {
+            display: block;
+          }
+          &:last-child {
+            display: block;
+          }
+          img {
+            display: none;
+          }
+          svg {
+            -webkit-transition: all 0.3s 0s ease;
+            -moz-transition: all 0.3s 0s ease;
+            -o-transition: all 0.3s 0s ease;
+            transition: all 0.3s 0s ease;
+          }
+          background: #fff;
+          -webkit-transition: all 0.3s 0s ease;
+          -moz-transition: all 0.3s 0s ease;
+          -o-transition: all 0.3s 0s ease;
+          transition: all 0.3s 0s ease;
+          &:hover {
+            background: #dd963c;
+            -webkit-transition: all 0.3s 0s ease;
+            -moz-transition: all 0.3s 0s ease;
+            -o-transition: all 0.3s 0s ease;
+            transition: all 0.3s 0s ease;
+            svg {
+              fill: #fff;
+              -webkit-transition: all 0.3s 0s ease;
+              -moz-transition: all 0.3s 0s ease;
+              -o-transition: all 0.3s 0s ease;
+              transition: all 0.3s 0s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+  .collectionSwiper {
+    position: relative;
+    padding: 0 25px;
+    margin-bottom: 70px;
+    padding-top: 10px;
+    .swiper-navigation-item {
+      position: absolute;
+      top: 46%;
+      transform: translate(0, -50%);
+      width: 60px;
+      height: 60px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+      border-radius: 50%;
+      overflow: hidden;
+      z-index: 9;
+      outline: none;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .swiper-button-next {
+      right: 15px;
+      -webkit-transition: all 0.3s 0s ease;
+      -moz-transition: all 0.3s 0s ease;
+      -o-transition: all 0.3s 0s ease;
+      transition: all 0.3s 0s ease;
+
+      &:hover {
+        box-shadow: 0px 1px 5px 8px rgba(227, 222, 222, 0.25);
+        -webkit-box-shadow: 0px 1px 5px 8px rgba(227, 222, 222, 0.25);
+        -moz-box-shadow: 0px 1px 5px 8px rgba(227, 222, 222, 0.25);
+      }
+    }
+    .swiper-button-prev {
+      left: 15px;
+      -webkit-transition: all 0.3s 0s ease;
+      -moz-transition: all 0.3s 0s ease;
+      -o-transition: all 0.3s 0s ease;
+      transition: all 0.3s 0s ease;
+
+      &:hover {
+        box-shadow: 0px 1px 5px 8px rgba(227, 222, 222, 0.25);
+        -webkit-box-shadow: 0px 1px 5px 8px rgba(227, 222, 222, 0.25);
+        -moz-box-shadow: 0px 1px 5px 8px rgba(227, 222, 222, 0.25);
+      }
+    }
+    .swiper-slide {
+      background: transparent;
+      .card-wrapper {
+        padding: 20px;
+        width: 100%;
+        -webkit-transition: all 0.5s 0s ease;
+        -moz-transition: all 0.5s 0s ease;
+        -o-transition: all 0.5s 0s ease;
+        transition: all 0.5s 0s ease;
+
+        .card--product {
+          &:hover {
+            .card__inner {
+              .product-item__img {
+                .prd-img-main {
+                  visibility: hidden;
+                  -webkit-transition: all 0.5s 0s ease;
+                  -moz-transition: all 0.5s 0s ease;
+                  -o-transition: all 0.5s 0s ease;
+                  transition: all 0.5s 0s ease;
+                }
+                .prd-img-hover {
+                  visibility: visible;
+                  -webkit-transition: all 0.5s 0s ease;
+                  -moz-transition: all 0.5s 0s ease;
+                  -o-transition: all 0.5s 0s ease;
+                  transition: all 0.5s 0s ease;
+                  transition: transform 0.5s ease;
+                  transform-origin: center center;
+                  transform: scale(1.03);
+                }
+              }
+            }
+          }
+          .card__inner {
+            overflow: hidden;
+            .product-item__img {
+              position: relative;
+              height: 100%;
+              a {
+                display: block;
+                height: 100%;
+              }
+              img {
+                height: 100%;
+                width: 100%;
+                max-width: 100%;
+                object-fit: contain;
+              }
+              img.product-is-sold-out {
+                opacity: 0.5;
+              }
+              .prd-img-main {
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+              }
+              .prd-img-hover {
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                visibility: hidden;
+                // -webkit-transition: all 0.5s 0s ease;
+                // -moz-transition: all 0.5s 0s ease;
+                // -o-transition: all 0.5s 0s ease;
+                // transition: all 0.5s 0s ease;
+              }
+            }
+            .card__badge {
+              right: auto;
+              left: 20px;
+              top: 20px;
+              span {
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 1.4em;
+                color: #fff;
+                background: #d6a669;
+                padding: 0 8px;
+                display: inline-block;
+                width: auto;
+                height: auto;
+                border-radius: 0;
+              }
+            }
+            .button-fashion {
+              position: absolute;
+              bottom: 15px;
+              left: 10px;
+              right: 10px;
+              .quick_view_btn {
+                background: #fff;
+
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.4em;
+                letter-spacing: 0;
+                color: #282828;
+                // text-transform: uppercase;
+                width: 100%;
+                height: 100%;
+                padding: 15px 0;
+                -webkit-transition: all 0.3s 0s ease;
+                -moz-transition: all 0.3s 0s ease;
+                -o-transition: all 0.3s 0s ease;
+                transition: all 0.3s 0s ease;
+                &:hover {
+                  color: #fff;
+                  -webkit-transition: all 0.3s 0s ease;
+                  -moz-transition: all 0.3s 0s ease;
+                  -o-transition: all 0.3s 0s ease;
+                  transition: all 0.3s 0s ease;
+                }
+              }
+            }
+          }
+        }
+
+        .card-information {
+          .card-information__titleblock {
+            h3 {
+              font-size: 22px;
+              font-weight: 400;
+              line-height: 1.4em;
+              color: #000;
+              text-transform: capitalize;
+            }
+            .card-information__cart {
+              form {
+                input {
+                  font-size: 16px;
+                  line-height: 1.4em;
+                  color: #000;
+                  text-transform: none;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .height-title {
+    .card-information__titleblock {
+      height: 60px;
+    }
+  }
+}
+
+//-----featured collection default-----------///
+.home-collection {
+  .featured-collection__default {
+    .fc-default__list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+      .fc-default__item {
+        padding: 0 30px;
+        svg {
+          width: 330px;
+          height: 430px;
+          background: #cccccc;
+          margin-bottom: 30px;
+        }
+        .fc-default-product__title {
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 1.4em;
+          color: #000;
+          text-transform: capitalize;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

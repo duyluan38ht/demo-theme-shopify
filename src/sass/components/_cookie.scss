@@ -1,0 +1,37 @@
+#cookies-banner{
+  p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4em;
+    color: #000;
+  }
+  a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #a1a1a1;
+    margin-bottom: 20px;
+  }
+  .cookies-banner__button{
+    button{
+
+    }
+    .cookies-banner__decline{
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.4em;
+      color: #000;
+      border: 0;
+      padding-left: 0;
+    }
+    .cookies-banner__accept{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.4em;
+      text-transform: uppercase;
+      color: #fff;
+      background: #000;
+    }
+  }
+
+}

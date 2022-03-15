@@ -1,0 +1,81 @@
+.collection-breadcrumb-section svg{
+    width: 12px;
+    height: 12px;
+}
+.collection-breadcrumb-section{
+    padding: 42px 0;
+}
+
+.collection-breadcrumb-section a,
+.collection-breadcrumb-section span
+{
+    font-size: 16px;
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+.collection-breadcrumb-section a:first-child,
+.collection-breadcrumb-section span:first-child {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .collection-breadcrumb-section a:first-child,
+    .collection-breadcrumb-section span:first-child {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .collection-breadcrumb-section a,
+    .collection-breadcrumb-section span{
+        padding: 0 10px;
+    }  
+
+    .collection-breadcrumb-section a:first-child,
+    .collection-breadcrumb-section span:first-child {
+        padding-left: 15px;
+    }
+}
+
+.wrapper-portfolio-breadcrum {
+    max-width: 1820px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-portfolio-breadcrum .background {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper-portfolio-breadcrum .content {
+    position: absolute;
+    align-self: center;
+}
+.wrapper-portfolio-breadcrum .content .tittle-portfolio {
+    margin-bottom: 15px;
+}
+.wrapper-portfolio-breadcrum .content .tittle-portfolio h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.wrapper-portfolio-breadcrum .content .breadcrumb-portfolio {
+
+}
+.wrapper-portfolio-breadcrum .content .breadcrumb-portfolio .bread-crumb__item {
+    font-size: 16px;
+    color: #ffffff;
+}
+.wrapper-portfolio-breadcrum .content .breadcrumb-portfolio svg {
+    margin-left: 28px;
+    margin-right: 25px;
+    fill: #ffffff;
+}
+

@@ -1,0 +1,851 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.site-footer {
+  position: relative;
+  border-top: 1px solid #e7e7e7;
+  background-size: cover;
+
+  li.list-social__item .icon,
+  li.list-social__item svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+.container.footer__content-top,
+.container-fluid.footer__content-top {
+  padding-top: 75px;
+}
+
+.container h2.footer-block__heading,
+.container-fluid h2.footer-block__heading {
+  font-weight: 500;
+  margin-bottom: 40px;
+  letter-spacing: 0;
+}
+.item-block-contact {
+  margin-top: 25px;
+  line-height: 1.7em;
+  letter-spacing: 0;
+  max-width: 440px;
+  margin-bottom: 23px;
+  font-weight: 400;
+}
+
+.footer__list-social {
+  margin-bottom: 30px;
+}
+
+li.list-social__item.hvr-pop {
+  margin-right: 16px;
+}
+
+li.list-social__item:hover svg {
+  fill: #000;
+}
+
+.title-phone {
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+  padding-right: 14px;
+  margin-bottom: 0;
+}
+
+.contact .contact-phone {
+  display: flex;
+  align-items: center;
+}
+.number-contact {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.container .footer-block__details-content .list-menu__item,
+.container-fluid .footer-block__details-content .list-menu__item {
+  line-height: 1;
+  text-decoration: none;
+  margin-bottom: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* footer blog */
+.footer-blog {
+  margin-bottom: -23px;
+}
+
+.blog-list-item {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 6px;
+}
+
+.blog-list-image {
+  width: 30%;
+}
+
+.blog-list-image img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.blog-list-content {
+  width: 70%;
+  padding-left: 5px;
+}
+/* block coppyright */
+.footer__copyright {
+  text-transform: none;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.footer__column.footer__column--info.row {
+  display: flex;
+  align-items: center;
+  padding: 35px 0;
+}
+.cosmetic-footer-content-bottom .footer__column.footer__column--info.row {
+  justify-content: center;
+}
+.cosmetic-footer-content-bottom
+  .footer__column.footer__column--info.row
+  .footer__copyright {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer__payment {
+  margin-left: -28px;
+}
+
+.icon-scroll-top {
+  position: absolute;
+  right: 45px;
+  bottom: 74px;
+  z-index: 999;
+}
+
+// New style 22/12
+/*----footer art-------*/
+footer.wp-footer-art-theme {
+  > .footer-art-theme {
+    margin-top: 103px;
+    margin-bottom: 72px;
+    padding-left: 11px !important;
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+      padding-left: 15px !important;
+    }
+    .footer__content-top {
+      .main {
+        .footer__blocks-wrapper {
+          .contact {
+            @media (min-width: 1500px) {
+              min-width: 580px;
+            }
+            .contact-phone {
+              .number-contact {
+                font-weight: 300;
+              }
+            }
+          }
+          .link-list {
+            .footer-block__details-content {
+              .item-block {
+                .list-menu__item {
+                  margin-bottom: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .icon-scroll-top {
+    bottom: 60px !important;
+    right: 53px;
+  }
+}
+//----end art----//
+//----footer fashion----//
+footer.wp-footer-fashion-theme {
+  border-top: none;
+  > .footer-fashion-theme {
+    margin-top: 94px;
+    margin-bottom: 72px;
+    @media (max-width: 600px) {
+      padding: 0 30px;
+    }
+    .footer__content-top {
+      .main {
+        .footer__blocks-wrapper {
+          .contact {
+            @media (min-width: 1500px) {
+              min-width: 580px;
+            }
+            .footer__list-social {
+              margin-bottom: 30px;
+            }
+            .contact-phone {
+              .title-phone {
+                padding-right: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .fashion-footer-content-bottom {
+    border-top: 1px solid #e5e5e5;
+    .container {
+      border-top: none;
+      .footer__content-bottom-wrapper {
+        .footer__column {
+          padding-top: 47px;
+        }
+      }
+    }
+  }
+  .icon-scroll-top {
+    bottom: 78px !important;
+    right: 59px;
+  }
+}
+//---end fashion-----//
+//----footer cosmetic----//
+footer.wp-footer-cosmetic-theme {
+  > .footer-cosmetic-theme {
+    margin-top: 97px;
+    margin-bottom: 98px;
+    // @media (max-width: 768px) {
+    //   margin-bottom: 0 !important;
+    // }
+    position: relative;
+    > .footer__content-top {
+      padding-left: 32px;
+      padding-right: 23px;
+      .main {
+        .footer__blocks-wrapper {
+          .link-list {
+            @media (min-width: 1500px) {
+              padding-left: 90px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer__content-bottom.cosmetic-footer-content-bottom {
+    background: #000000;
+    position: relative;
+    z-index: 89;
+    > div {
+      padding: 0 50px;
+    }
+  }
+
+  .wp-trademark {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: -45%;
+  }
+
+  .cosmetic-back-top {
+    z-index: 90;
+  }
+}
+//-----footer clothes -----//
+
+footer.wp-footer-clothes-theme {
+  > .footer-clothes-theme {
+    margin-top: 106px;
+    margin-bottom: 69px;
+    .footer__content-top {
+      .main {
+        .footer__blocks-wrapper {
+          .contact {
+            @media (min-width: 1500px) {
+              min-width: 580px;
+            }
+            .footer__logo {
+              margin-top: -7px;
+              margin-bottom: 37px;
+            }
+            .footer-block__details-content {
+              .item-block-contact {
+                margin-bottom: 34px;
+              }
+            }
+            .footer__list-social {
+              margin-bottom: 48px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer__content-bottom.clothes-footer-content-bottom {
+    border-top: 1px solid #e5e5e5;
+    .container {
+      border-top: none;
+    }
+    .footer__column.footer__column--info {
+      padding: 21px 0;
+      padding-top: 51px;
+    }
+  }
+  .icon-scroll-top {
+    bottom: 98px !important;
+    right: 62px;
+  }
+}
+
+.icon-scroll-top.art-back-top {
+  button#back_top {
+    background: none !important;
+    svg {
+      filter: invert(89%) sepia(0%) saturate(315%) hue-rotate(175deg)
+        brightness(97%) contrast(88%);
+    }
+  }
+}
+
+/*---------- Footer cosmetic theme -----------*/
+.footer-cosmetic-theme {
+  .cosmetic.footer__content-head {
+    margin-bottom: 100px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 0;
+    }
+    .footer__blocks-wrapper {
+      padding-top: 100px;
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }
+}
+
+.subscribe {
+  .email {
+    margin-bottom: 20px;
+    input {
+      width: 100%;
+      padding-left: 20px;
+      font-size: 18px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      border: 1px solid #e7e7e7;
+    }
+  }
+
+  .submit {
+    input {
+      font-size: 20px;
+      color: #fff;
+      background: #f59848;
+      border: unset;
+      width: 155px;
+      padding: 19px 0;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background: #282725;
+      }
+    }
+  }
+}
+.cosmetic h2.footer-block__heading {
+  margin-bottom: 38px;
+
+  font-weight: 400;
+  letter-spacing: inherit;
+}
+.cosmetic a.list-menu__item--link {
+  padding-top: unset;
+  padding-bottom: 15px;
+  color: #000000;
+}
+.footer__content-bottom-cosmetic {
+  background: #000000;
+  z-index: 99;
+  position: relative;
+}
+.cosmetic .footer__column.footer__column--info.row {
+  .footer__logo {
+    padding-left: 38px;
+  }
+  .footer__copyright {
+    text-align: center;
+  }
+}
+.icon-scroll-top-cosmetic {
+  //bottom: 15px !important;
+  z-index: 99;
+}
+
+/*--- Desktop ----*/
+@media only screen and (min-width: 1410px) {
+  footer.wp-footer-art-theme {
+    .footer-art-theme {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .footer__content-bottom.art-footer-content-bottom {
+      > div {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+  footer.wp-footer-fashion-theme {
+    .footer-fashion-theme {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .footer__content-bottom.fashion-footer-content-bottom {
+      > div {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  footer.wp-footer-clothes-theme {
+    .footer-clothes-theme {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .footer__content-bottom.clothes-footer-content-bottom {
+      > div {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  footer.wp-footer-cosmetic-theme {
+    > .footer-cosmetic-theme {
+      margin-bottom: 70px;
+      > .footer__content-top {
+      }
+    }
+    .footer__content-bottom.cosmetic-footer-content-bottom {
+      .footer__content-bottom-wrapper {
+        padding: 0;
+      }
+    }
+
+    .wp-trademark {
+      display: none;
+    }
+  }
+
+  footer.wp-footer-clothes-theme {
+    > .footer-clothes-theme {
+      .footer__content-top {
+        .footer__blocks-wrapper {
+          > div {
+            margin-bottom: 95px;
+          }
+        }
+      }
+    }
+    .footer__content-bottom.clothes-footer-content-bottom {
+      .footer__column.footer__column--info {
+      }
+    }
+  }
+
+  footer.wp-footer-clothes-theme {
+    > .footer-clothes-theme {
+      padding: 0 30px;
+      .footer__content-top {
+        .footer__blocks-wrapper {
+        }
+      }
+    }
+    .footer__content-bottom.clothes-footer-content-bottom {
+      padding: 0 15px;
+      .footer__column.footer__column--info {
+        .footer__copyright,
+        .footer__payment {
+        }
+      }
+    }
+  }
+}
+
+/*--- Tablet ----*/
+@media only screen and (max-width: 1024px) {
+}
+
+/*--- Mobile ----*/
+@media only screen and (max-width: 768px) {
+  footer.wp-footer-art-theme {
+    padding-left: 85px;
+    padding-right: 85px;
+
+    .art-footer-content-bottom {
+      .footer__copyright {
+        margin-bottom: 24px;
+      }
+      .footer__payment {
+        margin-left: 0;
+        .list-payment {
+          padding-left: 0;
+          li:first-child {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  footer.wp-footer-fashion-theme {
+    padding-left: 85px;
+    padding-right: 85px;
+
+    .fashion-footer-content-bottom {
+      margin-left: 15px;
+      margin-right: 15px;
+      > div {
+        padding-left: 0;
+        padding-right: 0;
+
+        .footer__column.footer__column--info {
+          position: relative;
+          .footer__copyright {
+            margin-bottom: 24px;
+          }
+          .footer__payment {
+            position: absolute;
+            top: -60%;
+            margin-left: 0;
+            .list-payment {
+              padding-left: 0;
+              li:first-child {
+                padding-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer.wp-footer-cosmetic-theme {
+    > .footer-cosmetic-theme {
+      > .footer__content-top {
+        padding-left: 57px;
+        padding-right: 57px;
+      }
+    }
+    .footer__content-bottom.cosmetic-footer-content-bottom {
+      .footer__content-bottom-wrapper {
+        padding: 0 33px;
+      }
+    }
+
+    .wp-trademark {
+      span {
+      }
+    }
+  }
+
+  footer.wp-footer-clothes-theme {
+    > .footer-clothes-theme {
+      padding: 0 15px;
+      margin-bottom: 90px;
+      @media (max-width: 768px) {
+        margin-bottom: 0;
+      }
+      .footer__content-top {
+        .footer__blocks-wrapper {
+          > div {
+            margin-bottom: 70px;
+          }
+
+          > div:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .footer__content-bottom.clothes-footer-content-bottom {
+      padding: 0;
+      .footer__column.footer__column--info {
+        .footer__copyright,
+        .footer__payment {
+          margin-bottom: 23px;
+          margin-top: 23px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 640px) {
+  footer.wp-footer-art-theme {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  footer.wp-footer-fashion-theme {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer.wp-footer-cosmetic-theme {
+    > .footer-cosmetic-theme {
+      padding: 0;
+      > .footer__content-top {
+        padding: 0;
+      }
+    }
+    .footer__content-bottom.cosmetic-footer-content-bottom {
+      > div {
+        padding: 0 15px;
+        .footer__content-bottom-wrapper {
+          padding: 0;
+          .footer__logo {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .wp-trademark {
+      span {
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  //iphone
+  .cosmetic.footer__content-head {
+    margin-bottom: unset !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+/*-------- End style cosmetic theme ------*/
+
+/*---------- Footer clothes theme -----------*/
+footer.footer-clothes-theme {
+  padding-top: 100px;
+  .clothes {
+    .footer__content-top {
+      .footer__blocks-wrapper {
+        ul.footer-block__details-content {
+          li.item-block {
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*------ Footer electronic theme ----------*/
+footer.wp-footer-electronic-theme {
+  border-top: unset;
+  .footer-electronic-theme {
+    margin-bottom: 84px;
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+    }
+    .footer__content-top {
+      .main {
+        margin: 0;
+      }
+      .footer__blocks-wrapper {
+        .contact {
+          @media (max-width: 768px) {
+            padding-left: 15px !important;
+          }
+          .footer__logo {
+            margin-top: -10px;
+            margin-bottom: 41px;
+          }
+          .footer-block__details-content {
+            .item-block-contact {
+              margin-bottom: 21px;
+            }
+          }
+          .footer__list-social {
+            margin-bottom: 30px;
+          }
+          .contact-phone {
+            .number-contact {
+              font-weight: 300;
+            }
+          }
+        }
+        .link-list {
+          .footer-block__details-content {
+            .item-block {
+              .list-menu__item {
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+        div {
+          &:first-child {
+            padding-left: 0;
+          }
+
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .footer__content-bottom.electronic-footer-content-bottom {
+    .footer__content-bottom-wrapper {
+      .footer__column {
+        text-align: center;
+        padding-top: 70px;
+        .menu-footer-electronic {
+          margin: 0 auto 60px;
+          max-width: 1335px;
+          a {
+            font-size: 16px;
+            color: #818181;
+            margin-right: 15px;
+            line-height: 30px;
+            -webkit-transition: all 0.3s 0s ease;
+            -moz-transition: all 0.3s 0s ease;
+            -o-transition: all 0.3s 0s ease;
+            transition: all 0.3s 0s ease;
+            &::after {
+              content: " / ";
+              display: inline-block;
+              margin-left: 15px;
+            }
+            &:hover {
+              color: #d6a669;
+              -webkit-transition: all 0.3s 0s ease;
+              -moz-transition: all 0.3s 0s ease;
+              -o-transition: all 0.3s 0s ease;
+              transition: all 0.3s 0s ease;
+            }
+          }
+        }
+        .footer__payment {
+          margin-bottom: 40px;
+          margin-left: 0;
+          ul {
+            padding-left: 0;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+  .icon-scroll-top {
+    bottom: 118px !important;
+    right: 94px;
+  }
+}
+
+/*------------- Style medical theme ---------*/
+
+footer.wp-footer-medical-theme {
+  margin: 50px;
+  @media (max-width: 1680px) {
+    padding: 0 30px;
+  }
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+  border-top: 1px solid transparent;
+  .footer-medical-theme {
+    margin-top: 100px;
+    margin-bottom: 74px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+    }
+    .footer__content-top {
+      .main {
+        .footer__blocks-wrapper {
+          .contact {
+            .footer__logo {
+              margin-top: -6px;
+              margin-bottom: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer__content-bottom.medical-footer-content-bottom {
+    .footer__content-bottom-wrapper {
+      .footer__column {
+        text-align: center;
+        padding-top: 64px;
+        .menu-footer-electronic {
+          margin: 0 auto 60px;
+          max-width: 1270px;
+          padding: 0;
+          a {
+            font-size: 16px;
+            color: #818181;
+            margin-right: 15px;
+            line-height: 30px;
+            -webkit-transition: all 0.3s 0s ease;
+            -moz-transition: all 0.3s 0s ease;
+            -o-transition: all 0.3s 0s ease;
+            transition: all 0.3s 0s ease;
+            &:last-child {
+              &:after {
+                display: none;
+              }
+            }
+            &::after {
+              content: " / ";
+              display: inline-block;
+              margin-left: 15px;
+            }
+            &:hover {
+              color: #d6a669;
+              -webkit-transition: all 0.3s 0s ease;
+              -moz-transition: all 0.3s 0s ease;
+              -o-transition: all 0.3s 0s ease;
+              transition: all 0.3s 0s ease;
+            }
+          }
+        }
+        .footer__payment {
+          margin-bottom: 40px;
+          margin-left: 0;
+          ul {
+            padding-left: 0;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+  .medical-back-top {
+    bottom: 50px !important;
+    right: 50px;
+  }
+}

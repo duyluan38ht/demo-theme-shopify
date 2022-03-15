@@ -1,0 +1,88 @@
+.wrapper-about-organic {
+    padding: 0;
+    .diff.list-item {
+        @media (max-width: 992px) {
+            flex-wrap: wrap;
+        }
+        .item {
+            &:first-child, &:last-child {
+                margin-top: 145px;
+                @media (max-width: 992px) {
+                    margin-top: 0;
+                }
+            }
+
+            @media (max-width: 992px) {
+                flex-basis: 50%;
+            }
+            @media (max-width: 768px) {
+                flex-basis: 100%;
+                margin-bottom: 50px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .list-item {
+        display: flex;
+        margin-bottom: 110px;
+        @media (max-width: 768px) {
+            margin-bottom: 50px;
+        }
+        @media (max-width: 550px) {
+            margin-bottom: 0;
+        }
+        
+        .item {
+            img {
+                margin: auto;
+                margin-bottom: 33px;
+            }
+            .info {
+                text-align: center;
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .slogan-featured {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        h1 {
+            font-size: 180px;
+            font-weight: 600;
+            text-align: center;
+            color: #f4f7f2;
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        img {
+            position: absolute;
+            bottom: -25%;
+            @media (max-width: 1400px) {
+                bottom: 20%;
+            }
+            @media (max-width: 992px) {
+                bottom: 10%;
+            }
+            @media (max-width: 768px) {
+                position: unset;
+            }
+            @media (max-width: 550px) {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

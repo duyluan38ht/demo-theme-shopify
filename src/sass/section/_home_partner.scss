@@ -1,0 +1,144 @@
+.home-partner {
+  .title-partner-section {
+    //type 2 : medical
+    @media screen and (max-width: 767px) {
+      padding: 0 15px;
+    }
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    .title {
+      display: flex;
+      h3 {
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 36px;
+        margin-right: 126px;
+        letter-spacing: 0;
+      }
+      p {
+        align-self: end;
+        margin-bottom: 6px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #7c7c7c;
+      }
+    }
+
+    .action-move {
+      align-self: center;
+      .swiper-button-prev-medical-partner,
+      .swiper-button-next-medical-partner {
+        cursor: pointer;
+        svg {
+          width: 15px;
+        }
+      }
+    }
+  }
+  .partnerSwiper {
+    .swiper-slide {
+      justify-content: center;
+      &:hover {
+        a {
+          img {
+            filter: grayscale(0%);
+            transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+
+            opacity: 100% !important;
+          }
+        }
+
+        h3 {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      a {
+        position: relative;
+        display: inline-block;
+        img {
+          filter: grayscale(100%);
+          transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+
+          @media (max-width: 768px) {
+            opacity: 100% !important;
+            filter: unset;
+          }
+        }
+      }
+      h3 {
+        font-size: 16px;
+        margin-top: 25px;
+        font-weight: 500;
+        letter-spacing: 0;
+        transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+
+        visibility: hidden;
+        opacity: 0;
+      }
+      .partner-img-default {
+        width: 150px;
+        height: 150px;
+        background: #cccccc;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .home-partner {
+    .title-partner-section {
+      .title {
+        h3 {
+          margin-right: 0;
+        }
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+//-----type3------//
+.home-partner {
+  .type-3 {
+    .partnerSwiper {
+      .swiper-slide {
+        a {
+          img {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}

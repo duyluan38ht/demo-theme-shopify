@@ -1,0 +1,650 @@
+//home service base & home service art
+.home-service-main {
+  .home-service-art {
+    .home-service {
+      .home-service-row {
+        .home-service-item__title {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+.home-service {
+  .home-service-row {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .home-service-item {
+    position: relative;
+    padding: 70px 15px 50px 15px;
+    border-right: 1px solid #ececec;
+    z-index: 1;
+    width: 25%;
+
+    @media screen and (min-width: 1024px) and (max-width: 1800px) {
+      padding: 80px 10px;
+    }
+    @media screen and (max-width: 1024px) {
+      padding: 0;
+      flex-direction: column;
+    }
+    @media screen and (max-width: 767px) {
+      padding: 0;
+      border-right: none;
+    }
+    .home-service-item__title {
+      h4 {
+        position: relative;
+        display: inline-block;
+
+        &:before {
+          position: absolute;
+          content: "";
+          width: 0;
+          height: 2px;
+          transition: all 0.3s;
+          background: #000;
+          bottom: 3px;
+          left: 0;
+          display: block;
+        }
+      }
+    }
+    .home-service-item__content {
+      line-height: 1.4;
+      p {
+        font-size: 16px;
+        color: #7c7c7c;
+        font-weight: 400;
+      }
+    }
+    &:hover {
+      .home-service-item__title {
+        h4 {
+          &:before {
+            width: 100%;
+          }
+        }
+      }
+      .home-service-item__image {
+        img {
+          transform: rotateY(180deg);
+        }
+      }
+    }
+    &:last-child {
+      border-right: none;
+    }
+  }
+  .home-service__image {
+    margin-bottom: 25px;
+    .home-service-item__image {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+      img {
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        max-width: 100%;
+      }
+    }
+    .home-service-item-default__image {
+      width: 100px;
+      margin: auto;
+      background-color: #ccc;
+      border-radius: 50%;
+      margin-bottom: 30px;
+    }
+  }
+
+  .home-service-item__title {
+    margin-bottom: 15px;
+    h4 {
+      font-size: 18px;
+      line-height: 1.4;
+      letter-spacing: 0;
+      margin-bottom: 0;
+      font-weight: 500;
+    }
+  }
+}
+.home-service-item {
+  .hover-home-serve {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #000000;
+    transition: all 1s ease-out;
+  }
+}
+
+//page home servie cosmetic
+
+.home-service-cosmetic {
+  .home-service {
+    .home-service-row {
+      .home-service-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px 0;
+        cursor: pointer;
+        @media screen and (min-width: 1024px) and (max-width: 1500px) {
+          flex-direction: column;
+        }
+        .home-service__image {
+          margin-bottom: 0;
+          .home-service-item__image {
+            margin-right: 30px;
+            margin-bottom: 0;
+            max-width: 80px;
+            img {
+              -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+              filter: grayscale(100%);
+            }
+            @media screen and (min-width: 1024px) and (max-width: 1500px) {
+              margin-bottom: 30px;
+            }
+          }
+          .home-service-item-default__image {
+            width: 70px;
+            background: #cccccc;
+            margin-right: 30px;
+            border-radius: 50%;
+            margin-bottom: 0;
+            @media screen and (min-width: 1024px) and (max-width: 1500px) {
+              margin-bottom: 30px;
+            }
+            svg {
+              display: block;
+            }
+          }
+        }
+
+        .home-service__content {
+          text-align: start;
+          @media (min-width: 1025px) and (max-width: 1499px) {
+            text-align: center;
+          }
+          .home-service-item__title {
+            margin-bottom: 10px;
+            h4 {
+              font-size: 18px;
+              margin-bottom: 0;
+              font-weight: 500;
+              &::before {
+                height: 1px;
+              }
+            }
+          }
+          .home-service-item__content {
+            p {
+              font-size: 16px;
+              letter-spacing: 0;
+              font-weight: 400;
+              margin-bottom: 0;
+            }
+          }
+        }
+        &:hover {
+          .home-service-item__image {
+            img {
+              transform: rotateY(0deg);
+              -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+              filter: grayscale(0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//home electronic
+.home-service-electronic {
+  .home-service {
+    overflow: hidden;
+    .home-service-row {
+      justify-content: start;
+      .home-service-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px 0;
+        // margin-left: 60px;
+        // padding-right: 60px;
+        width: 100%;
+        @media screen and (min-width: 1024px) and (max-width: 1500px) {
+          flex-direction: column;
+        }
+        @media (max-width: 768px) {
+          // margin-left: 0;
+          // padding-right: 0;
+        }
+        .home-service__image {
+          margin-bottom: 0;
+        }
+        .home-service-item__image {
+          margin-right: 30px;
+          margin-bottom: 0;
+          max-width: 80px;
+          img {
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+          }
+          @media screen and (min-width: 1024px) and (max-width: 1500px) {
+            margin-bottom: 30px;
+          }
+        }
+
+        .home-service-item-default__image {
+          width: 70px;
+          background: #cccccc;
+          margin-right: 30px;
+          border-radius: 50%;
+          margin-bottom: 0;
+          @media screen and (min-width: 1024px) and (max-width: 1500px) {
+            margin-bottom: 30px;
+          }
+        }
+        .home-service__content {
+          text-align: start;
+          max-width: 240px;
+          .home-service-item__title {
+            margin-bottom: 8px;
+            h4 {
+              font-size: 18px;
+              font-weight: 500;
+              text-transform: none;
+              margin-bottom: 0;
+            }
+          }
+          .home-service-item__content {
+            p {
+              font-size: 16px;
+              letter-spacing: 0;
+              font-weight: 400;
+              margin-bottom: 0;
+            }
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          .home-service-item__image {
+            img {
+              transform: rotateY(180deg);
+              -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+              filter: grayscale(0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//home clothes
+.home-service-clothes {
+  .home-service-clothes__list {
+    .home-service-clothes__item {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 30px;
+      padding-top: 60px;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #ccc;
+        opacity: 50%;
+      }
+
+      @media (max-width: 1024px) {
+        border-left: none;
+      }
+      .item-image {
+        margin-bottom: 30px;
+        .item-image-service {
+          img {
+            width: 100%;
+          }
+        }
+        .item-image-default {
+          width: 100px;
+          background: #ccc;
+        }
+      }
+      .item-content {
+        @media (max-width: 1024px) {
+          padding: 0 10px;
+        }
+        &__title {
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 6px;
+          letter-spacing: 0.4px;
+        }
+        &__subtitle {
+          font-size: 36px;
+          font-weight: 300;
+          letter-spacing: 0;
+          max-width: 845px;
+          margin-bottom: 20px;
+          @media (max-width: 768px) {
+            font-size: 24px;
+          }
+        }
+        &__description {
+          font-size: 16px;
+          margin-bottom: 50px;
+          letter-spacing: 0;
+          font-weight: 400;
+          color: #7c7c7c;
+          @media (max-width: 768px) {
+            font-size: 20px;
+          }
+        }
+        .btn-service-clothes {
+          font-size: 20px;
+          text-transform: uppercase;
+          border: 2px solid #000000;
+          padding: 16px 55px;
+          opacity: 0;
+          -webkit-transition: all 0.3s 0s ease-out;
+          -moz-transition: all 0.3s 0s ease-out;
+          -o-transition: all 0.3s 0s ease-out;
+          transition: all 0.3s 0s ease-out;
+        }
+      }
+    }
+    .swiper-slide-active {
+      .item-image,
+      .item-content {
+        opacity: 1;
+      }
+      opacity: 1;
+      -webkit-transition: all 0.3s 0s ease-out;
+      -moz-transition: all 0.3s 0s ease-out;
+      -o-transition: all 0.3s 0s ease-out;
+      transition: all 0.3s 0s ease-out;
+
+      background: #fbfbfb;
+      .btn-service-clothes {
+        opacity: 1 !important;
+        -webkit-transition: all 0.3s 0s ease-out;
+        -moz-transition: all 0.3s 0s ease-out;
+        -o-transition: all 0.3s 0s ease-out;
+        transition: all 0.3s 0s ease-out;
+      }
+    }
+  }
+}
+//----home medical----//
+.home-service-medical {
+  .home-service-medical__list {
+    padding: 0;
+    .wrapper {
+      display: flex;
+
+      @media (max-width: 992px) {
+        display: block;
+        padding: 0 30px;
+      }
+      @media (max-width: 768px) {
+        padding: 0 15px;
+      }
+    }
+    .home-service-medical__item {
+      display: flex;
+      // padding: 80px 0;
+      // position: relative;
+      overflow: hidden;
+      max-width: 690px;
+      margin-right: 30px;
+      @media (max-width: 992px) {
+        max-width: unset;
+        margin-right: 0;
+        margin-bottom: 30px;
+      }
+      @media (max-width: 768px) {
+      }
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+
+      &::before {
+        display: block;
+        outline: 2px dashed #fff;
+        outline-offset: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 2;
+        -webkit-transition: all 0.25s;
+        transition: all 0.25s;
+      }
+      &:hover {
+        &::before {
+          outline-offset: -15px;
+        }
+
+        .item-image-background {
+        }
+        .wp-item {
+          .item-content {
+            .wp-content-service {
+              top: -20px;
+            }
+            a {
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .item-image-background {
+        width: 100%;
+        position: absolute;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .wp-item {
+        display: flex;
+        position: relative;
+        z-index: 2;
+        padding: 80px;
+        // padding: 0 50px 0 80px;
+        @media (max-width: 768px) {
+          padding: 45px 30px 45px 30px;
+        }
+        .item-image {
+          margin-right: 40px;
+          align-self: center;
+          @media (max-width: 445px) {
+            display: none;
+          }
+          .item-image-service {
+            img {
+              width: auto;
+            }
+          }
+          .item-image-default {
+            width: 100px;
+            height: 100px;
+            background: #cccccc;
+          }
+        }
+        .item-content {
+          text-align: left;
+          position: relative;
+          align-self: center;
+          .wp-content-service {
+            transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            position: relative;
+            top: 0;
+            .item-content__title {
+              font-size: 28px;
+              font-weight: 500;
+              margin-bottom: 10px;
+              color: #ffffff;
+            }
+            .item-content__description {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 1.4;
+
+              color: #ffffff;
+              margin-bottom: 0;
+            }
+          }
+
+          a {
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffffff;
+            position: absolute;
+            transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            visibility: hidden;
+            opacity: 0;
+            display: flex;
+            align-items: center;
+            svg {
+              margin-left: 5px;
+              fill: #ffffff;
+            }
+
+            &:before {
+              content: "";
+              position: absolute;
+              bottom: -3px;
+              left: 0;
+              right: 50%;
+              height: 1px;
+              background-color: #ffffff;
+              transform: scaleX(0);
+              transform-origin: bottom left;
+
+              transition: transform 0.3s;
+            }
+
+            &:after {
+              content: "";
+              position: absolute;
+              bottom: -3px;
+              right: 0;
+              left: 50%;
+              height: 1px;
+              background-color: #ffffff;
+              transform: scaleX(0);
+              transform-origin: bottom right;
+              transition: transform 0.3s;
+            }
+
+            &:hover {
+              &:before {
+                transform: scaleX(1);
+              }
+
+              &:after {
+                transform: scaleX(1);
+              }
+            }
+          }
+        }
+      }
+    }
+    .swiper-slide-active {
+    }
+  }
+}
+
+//--- Home Service Organic ------
+.home-service-organic {
+  .home-service {
+    max-width: 1350px;
+    .home-service-row {
+      .home-service-item {
+        display: flex;
+        border-right: 0;
+        width: unset;
+        .home-service__image {
+          margin-right: 27px;
+          .home-service-item__image {
+            img {
+              max-width: unset;
+            }
+          }
+        }
+        .home-service__content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-right: 15px;
+          .home-service-item__title {
+            text-align: left;
+            h4 {
+              font-size: 18px;
+
+              &::before {
+                width: 0;
+              }
+            }
+          }
+          .home-service-item__content {
+            p {
+              text-align: left;
+              font-size: 16px;
+              letter-spacing: 0;
+              line-height: 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home-service-organic {
+    .home-service {
+      .home-service-row {
+        .home-service-item {
+          .home-service__content {
+            padding-right: 0;
+            .home-service-item__title {
+              text-align: center;
+            }
+            .home-service-item__content {
+              p {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

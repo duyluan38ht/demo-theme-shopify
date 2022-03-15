@@ -1,0 +1,35 @@
+/* .newsletter-form__field-wrapper {
+    padding: 65px 60px 60px 187px;
+}
+
+.newsletter-form__field-wrapper .newsletter-field{
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletter-field .newsletter-field__input{
+    background: #ffffff;
+    width: 56%;
+    padding: 20px 30px;
+    border: none;
+    font-size: 18px;
+}
+.style_2 .newsletter-form{
+    margin-left: -10px;
+}
+
+.style_2 .newsletter-form__field-wrapper{
+    padding: 90px 0
+}
+@media (max-width:768px) {
+    .style_2 .newsletter-form__field-wrapper{
+        padding: 40px 0
+    }
+}
+.style_2 .newsletter-field__input {
+    border-radius: 50px;
+    padding: 20px 55px 20px 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    width: 73%;
+}
+

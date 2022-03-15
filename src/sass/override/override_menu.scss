@@ -1,0 +1,84 @@
+#shopify-section-header {
+  .header-electronic {
+    .header {
+      .vertical-mega {
+        top: 110%;
+      }
+    }
+  }
+}
+
+.main-blog-section {
+  .pagination__list {
+    justify-content: center;
+    .pagination__item {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+.wishlist {
+  .card-information__pcard-options-color {
+    justify-content: center;
+  }
+}
+.wp-categories-cosmetic
+  .categories__category-detail-cosmetic
+  .info-category-cosmetic
+  h3
+  a {
+  letter-spacing: 0;
+}
+.home-collection
+  .theme-cosmetic.collection
+  .card-wrapper
+  .card-information
+  .card-information__wrapper
+  .card-information__titleblock
+  h3 {
+  text-transform: uppercase;
+}
+.cosmetic-testimonial .cosmetic-testimonial__content .description {
+  font-weight: 400;
+}
+#shopify-section-header
+  .header-type-center-vertical
+  .header
+  .header-middle
+  .header-middle__left
+  .list-menu
+  li {
+  margin-right: 35px;
+}
+//home art
+.home-testimonials {
+  .theme-default {
+    @media (min-width: 1024px) {
+      .swiper-slide__content {
+        max-width: 450px;
+      }
+    }
+    .col-right__title {
+      letter-spacing: 0;
+    }
+    .testimonialSwiper .swiper-slide {
+      border-left: 1px solid #e1e1e1;
+      @media (max-width: 979px) {
+        border-left: none;
+      }
+    }
+    .testimonialSwiper .swiper-pagination .swiper-pagination-bullet {
+      height: 20px;
+    }
+  }
+}
+
+.home-latest-blog {
+  .blog-art {
+    .latestblogSwiper .swiper-slide .swiper-slide__left .item {
+      h6 {
+        max-width: 350px;
+      }
+    }
+  }
+}

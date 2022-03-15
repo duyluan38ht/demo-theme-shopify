@@ -1,0 +1,548 @@
+// Fix home feature product
+.home-feature-product {
+  // theme art
+  .theme-art {
+    .hfpSwiper .right-content .description {
+      line-height: 1.7em;
+      margin-bottom: 23px;
+    }
+    .hfpSwiper .left-content .swiper-slide__img span.count {
+      background: #9ac78d;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+    }
+    .hfpSwiper .right-content .right-content__title {
+      margin-bottom: 14px;
+    }
+    .hfpSwiper .right-content .variants select {
+      text-transform: uppercase;
+    }
+  }
+}
+.home-history .wrapper__item .item {
+  align-items: start;
+}
+
+.home-history .wrapper__item {
+  // height: 350px;
+  @media (max-width: 768px) {
+    height: unset;
+  }
+}
+
+.home-testimonials .theme-default .col-right__subtitle {
+  margin-bottom: 40px;
+  @media (max-width: 979px) {
+    margin-bottom: 0;
+  }
+}
+.home-testimonials
+  .theme-default
+  .testimonialSwiper
+  .swiper-slide
+  .swiper-item {
+  padding-top: 30px;
+}
+.home-testimonials
+  .theme-default
+  .testimonialSwiper
+  .swiper-slide
+  .swiper-slide__content
+  svg {
+  height: 65px;
+  margin-bottom: 15px;
+}
+.home-testimonials
+  .theme-default
+  .testimonialSwiper
+  .swiper-slide
+  .swiper-slide__content
+  p {
+  margin-bottom: 27px;
+}
+.home-testimonials .theme-default .testimonialSwiper .swiper-wrapper {
+  margin-bottom: 57px;
+}
+.partnerSwiper {
+  padding: 20px 0;
+}
+.slm-content__pricetotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.home-slider-medical
+  .slider-medical
+  .slider-medical__swiper
+  .slider-medical__list
+  .slider-medical__item
+  .slm-content__price {
+  line-height: 1.4em;
+}
+.home-slider-medical
+  .slider-medical
+  .slider-medical__swiper
+  .slider-medical__list
+  .slider-medical__item
+  .slm-content__compare-price {
+  line-height: 1.4em;
+}
+
+.section-slider-collection
+  .slider-collection
+  .collection-slider
+  .cl-slider-list
+  .swiper-wrapper
+  .cl-slider-item {
+  padding: 30px 0;
+}
+
+.home-collection
+  .theme-medical.collection
+  .title-collection
+  .redirect-collection
+  a
+  h3
+  svg {
+  margin-left: 15px;
+}
+.home-collection
+  .theme-medical.collection
+  .title-collection
+  .title-icon
+  .title
+  h3 {
+  letter-spacing: 0;
+}
+
+// .home-feature-product
+//   .theme-medical
+//   .featured-product-medical
+//   .right-content
+//   .quantity-and-cart
+//   .box-quantity
+//   .product-form__quantity
+//   .quantity {
+//   border: 0;
+//   border-radius: 0;
+//   background: transparent;
+// }
+
+.home-feature-product
+  .theme-medical
+  .hfpSwiper
+  .right-content
+  .right-content__title
+  .section-title
+  a {
+  letter-spacing: 0;
+}
+.home-feature-product
+  .theme-medical
+  .featured-product-medical
+  .left-content
+  .gallery-medical-top
+  .icon-zoom
+  svg {
+  width: 40px;
+}
+.home-slider-medical
+  .slider-medical
+  .slider-medical__swiper
+  .swiper-button-next-medical
+  .icon-swiper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home-slider-medical
+  .slider-medical
+  .slider-medical__swiper
+  .swiper-button-prev-medical
+  .icon-swiper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section-banner-medical
+  .banner-sale-off
+  .banner-sale-off__main
+  .banner-sale-off__content
+  .banner-sale-off__number
+  .bn-off {
+  letter-spacing: 5px;
+}
+.section-banner-medical
+  .banner-sale-off
+  .banner-sale-off__main
+  .banner-sale-off__content
+  .banner-sale-off__desc {
+  line-height: 1.7em;
+}
+.medical-testimonial-swiper
+  .swiper-wrapper
+  .swiper-slide
+  .medical-testimonial
+  .description {
+  line-height: 1.6em;
+}
+
+.home-service-medical
+  .home-service-medical__list
+  .home-service-medical__item
+  .wp-item
+  .item-content
+  .wp-content-service
+  .item-content__title {
+  letter-spacing: 0;
+}
+.home-service-medical
+  .home-service-medical__list
+  .home-service-medical__item
+  .wp-item
+  .item-content
+  a
+  svg {
+  margin-left: 12px;
+}
+.the-blog-medical .blog-title .title h3 {
+  letter-spacing: -1px;
+}
+.home-slider-electronic
+  .slider-electronic
+  .slider-electronic__swiper
+  .slider-electronic__list
+  .slider-electronic__item
+  .container-item
+  .slider-electronic__content
+  .button-electronic {
+  padding: 18px 30px;
+}
+.main_list-collection
+  .collection-electronic
+  .collection-electronic__item
+  .cl-electronic__cl-title
+  .background-title {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 60px;
+  color: #fffcf4;
+  padding: 1px 5px;
+  border: 0;
+}
+.cl-electronic__cl-title .background-title-1 {
+  background: #ffb352;
+}
+.main_list-collection
+  .collection-electronic
+  .collection-electronic__item
+  .cl-electronic__cl-title {
+  top: 0;
+}
+
+.banner-elec_about .banner-elec-main .banner-elec__content h2 {
+  letter-spacing: 0;
+  line-height: 1.2em;
+}
+.home-collection .title-collection-type-1 .title-icon h3 {
+  letter-spacing: 0;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .product-item__img {
+  padding: 60px 0;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .card.card--product
+  .card__inner
+  .card__badge {
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  top: 0;
+}
+.home-collection
+  .theme-electronic.collection
+  .collectionSwiper
+  .swiper-slide
+  .card-wrapper.electronic-type-1
+  .card--product
+  .card__inner
+  .product-item__img
+  img {
+  max-height: 288px;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .card-information
+  .card-information__wrapper
+  .card-information__titleblock
+  h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .card-information
+  .card-information__wrapper
+  .card-information__pcard-options-variant
+  .swiper-navigation-item
+  svg {
+  max-width: 13px;
+}
+.home-collection .title-collection-type-1 .title-icon p {
+  position: absolute;
+  top: -2px;
+  right: -60px;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0;
+  background: #f9a500;
+  padding: 0 10px;
+  display: inline-block;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .card-information {
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .card-information__cart {
+  position: absolute;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .card-information__cart {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -200px;
+  top: unset;
+  visibility: hidden;
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1:hover
+  .card-information__cart {
+  bottom: 18px;
+  top: unset;
+  visibility: visible;
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-1
+  .card-information__cart
+  form
+  button:disabled {
+  opacity: 0.2;
+  display: none;
+}
+.home-collection
+  .theme-electronic.collection
+  .card-wrapper.electronic-type-2
+  .card-information
+  .card-information__wrapper
+  .card-information__titleblock
+  h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.banner-cosmetic .banner-cosmetic__info a {
+  display: inline-flex;
+  align-items: center;
+  padding: 17px 29px 17px 34px;
+  border: 2px solid #000000;
+}
+.banner-cosmetic .banner-cosmetic__info h2 {
+  // line-height: 1.45em;
+}
+.categories
+  .wp-categories-cosmetic.category_slider
+  .wrapper-slider
+  .ctgrSwiper
+  .swiper-slide
+  .collections-content-title {
+  letter-spacing: 0;
+}
+.home-latest-blog
+  .blog-cosmetic
+  .latestblogSwiper
+  .swiper-button-prev-latest-blog {
+  top: calc(50% - 50px);
+}
+.background-banner-cosmetic-fullwidth
+  .banner-count-down
+  .banner-count-down__product-info
+  a {
+  padding: 18px 31px;
+}
+.home-collection
+  .style-fashion.collectionSwiper
+  .swiper-slide
+  .card-wrapper
+  .card--product
+  .card__inner
+  .card__badge
+  span {
+  background: #4fbd1f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.home-collection
+  .style-fashion.collectionSwiper
+  .swiper-slide
+  .card-wrapper
+  .card--product
+  .card__inner
+  .card__badge {
+  right: 20px;
+  left: auto;
+  top: 20px;
+}
+// Quickfix medical page
+.home-slider-medical
+  .slider-medical
+  .slider-medical__swiper
+  .slider-medical__list
+  .slider-medical__item
+  .slm-content__btn
+  .btn__cover
+  .btn {
+  margin-right: 16px;
+  @media (max-width: 768px) {
+    margin-right: 0;
+  }
+}
+.main_list-collection
+  .cl-medical__item
+  .item-cl-main__content
+  .item-cl-main__desc {
+  letter-spacing: 0;
+}
+.main_list-collection .cl-medical__item:first-child .item-cl-main__content {
+  margin-top: 53px;
+}
+.main_list-collection .cl-medical__item:nth-child(2) .item-cl-main__content {
+  margin-top: 152px;
+}
+
+.home-collection
+  .theme-medical.collection
+  .title-collection
+  .title-icon
+  .title
+  .product-count {
+  top: -18px;
+  right: -44px;
+}
+.home-collection
+  .theme-medical.collection
+  .collectionSwiper-medical
+  .swiper-wrapper.grid-container
+  .swiper-slide
+  .card-wrapper.medical
+  .card-information
+  .card-information__wrapper
+  .card-infomation__tag-first {
+  margin-bottom: 8px;
+}
+.home-collection
+  .theme-medical.collection
+  .collectionSwiper-medical
+  .swiper-wrapper.grid-container
+  .swiper-slide
+  .card-wrapper.medical
+  .card-information
+  .card-information__wrapper
+  .card-information__titleblock
+  h3 {
+  display: block;
+}
+.home-collection
+  .theme-medical.collection
+  .collectionSwiper-medical
+  .swiper-wrapper.grid-container
+  .swiper-slide
+  .card-wrapper.medical
+  .card-information
+  .card-information__wrapper
+  .card-information__titleblock {
+  margin-bottom: 3px;
+}
+.home-collection
+  .theme-medical.collection
+  .collectionSwiper-medical
+  .swiper-wrapper.grid-container
+  .swiper-slide
+  .card-wrapper.medical
+  .card-information
+  .card-information__wrapper
+  .price {
+  line-height: 24px;
+}
+.home-collection
+  .theme-medical.collection
+  .collectionSwiper-medical
+  .swiper-wrapper.grid-container
+  .swiper-slide
+  .card--product
+  .card__inner
+  .product-item__img {
+  height: 270px;
+}
+.home-collection
+  .theme-medical.collection
+  .collectionSwiper-medical
+  .swiper-wrapper.grid-container
+  .swiper-slide
+  .card-information {
+  margin-top: 0;
+}
+.home-collection
+  .theme-medical.collection
+  .collectionSwiper-medical
+  .swiper-wrapper.grid-container
+  .swiper-slide
+  .button-wishlist.active
+  svg {
+  margin-right: 3px;
+  width: 22px;
+  margin-top: 1px;
+}

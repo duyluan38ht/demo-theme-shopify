@@ -1,0 +1,22 @@
+section.wishlist{
+  max-width: 1050px;
+  margin: 15px auto 100px;
+  .card-wrapper{
+    max-width: 33.33%;
+    margin-bottom: 50px;
+    .card-information__titleblock{
+      text-align: center;
+    }
+    .card-information__desc{
+      display: none;
+    }
+    .price{
+      .price-text{
+        display: none;
+      }
+      .price__sale{
+        justify-content:center;
+      }
+    }
+  }
+}
